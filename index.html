@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="estilo.css">
+
+  <title>Math flix</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=FKv2ut-Mjd4mD5hXA9HJI_abpIqTMDLC7MXv-zYDSsGVZZ4DMWOzNrUX2tAfsyAC1Bj64ciAPgbGZIXH-UK7PJFEYPWH00cz35xoHDzJ1nqo4vSYH06UG2U7xE39RVR0_XLVXZ_Pc0NG5WOYsxVlha4NOd7VjY62Ol1GPe1qRQVkFi-7c-WAWR0vYQ85wy2afXEIUtVVm_4JZEkuqNQ75o-qHjKNjAXgr8JGNmluyKT5SdHg8NugTQ3PFKo9ls6mQWfs_2Uc-fiX3_zzJq4qQr9rqBzgF2z1RdYoLxlLuNXLRZWvY33WVtyMex7mLWsJz4TsSwU7-Q7R_petPpOZ4_-TKHLTRCrP8vEjLmL9ByDorw8CyQbSGHNJCCO_zWgn57-yVZnT3H4uLJ57VM_Qt2nEaozEqT9R9YxLf_OS5if-0nmRN5e2GF75eU5c_v3G5mDk8JHekLA1kkvn-YTMBVHlFYge4XIn1oeDDQbMiEMQx6qOnTr_o16iFFLmKWGLxqGNbMjXw2wQzRFTsoby4QXIex4W6Jo0HTr7zbK_OtkbSEoT4eAxgjh30ecyqH5oYj70QOp7he7IRsG5e0qkZdA9MsMZmez2nSqNIra44xiGvHvMBLkBllykZx23_19gAJyiUZ6v_k-6tdm1TpFblD0ovvUvy-Sj03S6uMLkk25AR4dmJ1yqol_YbONc_pe45uteQvfTFzUhMHos71hBlXqSPQRqIlPN9FKXiFb4xn956D3ufOI-A7rwX5kDv8ghM1_64BmFB4hQ8Fl8hB4Ql6rxR7IWrPa2d14IJKPgz36AW2oYiYBNNMJvr8NVOLgMhlrKFAaQFwuGCDkRe3rui0JfcnrVmvACYPn3wSSxXuPtC8GqEaH-YeALrdI1V-HC8VkASMlNheM--oSwjfV6aDe2GfcHZMgWHILc0sNffhqIq6EoDKJKkOezbvufZS2jmjlmRyUeEARvWpu735-BVcwF7y-SYn-0MJ_WeX_zCyP5b8zinM6H38Rdj46J2FowzhPsW2_rEt2NheEkB1jaJCCI7Te3tluj9F3Q737cqPMpWBCYW0SIEqCLIci2q3UEjooyJar-MY4jAt5FvZEJyJjA-hjwUypKZru3k3E4AiQEJXJdhQ3WPxx-R8WvsoL8kpqRoeyB3xKaLB6kdoq_GEyyyA8-RdmDkP471Lh-1doDDOHLbY8WNZ7NzrR2yqicjS8eu6IU5ZwbgZPd7UMiQuEqCVTNSx2rP6fuxL1iu9ufeiVCkYASU5EMy47hq_K2Cc-fpuCTkGiNOi6uTEZv1s3Lkyy0Bm1a7TcJSzT6C5lwlwux3DXHKvFxyhw4gXI4LAZi29ym0KwCrRe2qwrP7s7dMrSUoekryn35Kyyvx6CrYgvPLRbOaC5_pqQZ_fEwBBYKsZDz58nwKtr8vt-Rg8BT-k6scYjyUJrJh_5U6gzmMV5KqvdAga6h5kO3R4cwIIruM3KHs9xRdSYmYq9Lbs6uVJ5fbot0ttwME_U-bui03vFj4CEetCiDw9jpuRdxq75StSzra2Kue45RJ18H4UDE8AgSZ0jEk-2-SiEQU5yGUaSfVimU_J5dvSN2AwPuIIq4-tuoUf3VIOcD8mapsebbJpRlmhArSKCfvBZ7YsBBE7GIbNtRJtRiWodrkhcRHRxbIvfIjQPNv3WGtrwmvA" nonce="5f0ad72186754074cfe41ac09f9b5b78" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9tYWlsLWF0dGFjaG1lbnQuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2F0dGFjaG1lbnQvdS8wLz91aT0yJmlrPTkwMWJhMzcyNGEmYXR0aWQ9MC4xJnBlcm1tc2dpZD1tc2ctZjoxNzY3MTU1NDU1ODE2Nzg2NTI0JnRoPTE4ODYzMjg2MzZkYTYyNWMmdmlldz1hdHQmZGlzcD1zYWZlJnJlYWxhdHRpZD1mX2xpN21yZzhpMCZzYWRkYmF0PUFOR2pkSjhyVXl4UkExdmVhemJuZkhhbkowcU41dEdNejh1d1ZIaHFEaWsxNE1vTjE3SXA2Sm1ZN29qMVluOGhsUUxmY2FadmpjVElndm1kdlpGSEVibk5wT1YwV3hIa0tUbG9jSWFFNFFiUkFsaEl5ZkpjYk84dlN0U19EX18yTFpianMxR2lRZndUYTU5cFRPR0lLb0V5emJWSEVKWlozbERZZWlMTVI1dV9aaEE2RkhKOTVNZV9PTFdQckg0NWVsSVNDRXJ5MVhGLWR3MGVhVjkxbExpaEZfSDI5bzQ0OFFwZjhpSlMyY1pIc1NoZVZHYk5ybDhxSkxrZlpOSHFrUlpZZ3c5NE9nWlRaMzRCVm9KdWxnSUV0MG5JSlkwd3g5d1RlSjllVDRRSEpUbk1rVUsxQ1pNSmZVNC1Sb3g1SjQ4RXdkeTZZMjVPOUVnaURDYldWUGJxdEdKdVVMSG9xb0w1aVpSenU5THIwLWxNbEVDMnZDbzBsdFN4NGRKampYX2dlNHlTWW5wUzhSOGpLUWpjUzV2MzFfaXM5MVBaN3I4Z3hZVjlQLWdGejNIMXU0dW4tOVhXQ0tOUDNfQUQxMEZNM2hhWWMwV0hrbHZhdUVwQVk4N0d3Q0sybFViU043ZEctd2FSMmpOcDlxdXNpWjdlTjEwZ2FIYXZMU3o3dTFySDRvSHV1TkdRODFxRTkxM3paVXZFSGoxV3lIMlhiRU1MX2pXdXRHVXk2Zkx5MVVpOUd5eXdZZ1VCREZmZUlJU0tzc3E3T0lMY3owTUFBNVNSNEVGa3F4NUI0d05EVWVQN2c5LVJ2bU9WMUpLTWZpbmhSR0pvUDVxc25uWDNYZ0VEbUVfLXF1b2djYjJCN0ZORVRERzlfdGRvd2h0MVVrZVdPZkhMUHV5aUFNOEpldGFPZDdDaVRxZ215YVZ5NHJQMG9obDFndjJnLUpxVVEtNF8tMEI2Ukw5M2FKZjRqcC12VWVWN2JVaDhnSmJadnZuRVVNRW1wblYyTElZeEJaVUVtWEZpVjBWdkVvZTJHSmZiWW9jRWxRTjhnYzlPMXBNRS02UVVRcjlFODhsbThXSnRyUXkxUWJFQ3R4WEZuNVdsaktPRTFMTTliV1Q2RGVvbGRIeFE1UW1ZLTh6MUhBQV9xRjFLUDAteFFhbmlVSm40clAtTFNsSE40TWNydGk3QVZlbldsUkZwWGFEMTBLVlI1dHh0RG84ZzJSRllRUVJVdHBBMEVwSjdxWmloSV9CbWN0eXJSVTZtWldQQnEwNzlhVXphcWRZTmRXdDZYZ1RrSUFtREVEQW9jcXJmczJCN1FSWEx3RU9kbG1DRXIyQnRYNVJDVlUyZTN3NHFSOVNMSG9NcWNUcHVEbndfc1pIZA"/></head>
+
+<body class="bg-dark">
+
+  <div class="error-container"></div>
+
+  <div class="error"></div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Resuelve tu duda</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2 my-input" type="search" placeholder="Search" aria-label="Search">
+          <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle me-2 ml-2" href="#" role="button" id="dropdownMenuLink"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Advanced Search
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li class="dropdown-item">
+                <input class="form-control me-2 year-ipt" type="search" placeholder="Tema" aria-label="Tema">
+              </li>
+              <li class="dropdown-item">
+                <input class="form-control me-2 episode-ipt" type="search" placeholder="Episodio" aria-label="Episodio">
+              </li>
+              <li class="dropdown-item">
+                <input class="form-control me-2 season-ipt" type="search" placeholder="Practicas" aria-label="Practicas">
+              </li>
+            </ul>
+          </div>
+          <button class="btn btn-success btn-search as" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Partes_de_una_par%C3%A1bola.svg/220px-Partes_de_una_par%C3%A1bola.svg.png');">
+        <div class="container carousel-info"></div>
+      </div>
+      <div class="carousel-item" style="background-image: url('https://i.ytimg.com/vi/otethtuROSo/maxresdefault.jpg');">
+        <div class="container carousel-info"></div>
+      </div>
+      <div class="carousel-item" style="background-image: url('https://i.ytimg.com/vi/P-PhOy9F7Sg/maxresdefault.jpg');">
+        <div class="carousel-item" style="background-image: url('https://i.ytimg.com/vi/TrASxq354J0/maxresdefault.jpg');">
+         
+        <div class="container carousel-info"></div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="cards-container">
+    <h2 class="text-center text-light mb-4">Mas buscados</h2>
+    <div class="container-fluid">
+      <div class="row new-row mt-1 mb-1"></div>
+      <div class="row default-row mt-1 mb-1" id="row-1"></div>
+      <div class="row default-row mt-1 mb-1" id="row-2"></div>
+    </div>
+  </div>
+
+  <template class="carousel-template">
+    <div class="carousel-caption text-start">
+      <h1>Example headline.</h1>
+      <p>Some representative placeholder content for the first slide of the carousel.</p>
+      <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+    </div>
+  </template>
+
+  <template class="error-template">
+    <div class="alert alert-danger alert-error mb-0 alert-dismissible fade show" role="alert">
+      <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+  </template>
+
+  <template class="card-template">
+    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-3 col-xxl mb-lg-2 mb-sm-2">
+      <div class="card border-secondary">
+        <img class="card-img-top img-test" alt="...">
+        <div class="card-body bg-dark text-white">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+            card's content.</p>
+          <a href="#" class="btn btn-light">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
